@@ -1,0 +1,26 @@
+{
+	"name"	: "cn.ladep.www",
+	"repo"	:
+	{
+		"url"	: "https://github.com/dekuan/cn.ladep.git",
+		"ver"	: "1.0.6"
+	},
+	"server" :
+	{
+		"config" :
+		{
+			"url"	: "/etc/ladep/config/production/cn.ladep.www/",
+			"type"	: "file"
+		},
+		"list" :
+		[
+			{
+				"host"	: "111.111.111.111",
+				"user"	: "worker",
+				"pwd"	: "",
+				"dm"	: "www.ladep.cn",
+				"path"	: "/var/www/cn.ladep.www/"
+			}
+		]
+	}
+}
